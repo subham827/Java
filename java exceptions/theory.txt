@@ -1,0 +1,8 @@
+Throwable class consists Exception and Error. Exception can be handled whereas error cannot be handled.
+Exception are of two types- checked and unchecked.
+Checked have again two classes- IOExceprtion,SQLException
+Unchecked have Runtimexception and Runtimeexception has - Arithmetic exception and so on.
+Unchecked exceptions are the exceptions in run time.
+Checked exceptions are the compile time.
+The finally block in java is used to put important codes such as clean up code.The finally block executes whether exception is rised or not and handled or not.
+Now if the exception in try block is not handled , the program will be terminated and it will not execute any code written after the try statement,unless it is surrounded by finally block.
